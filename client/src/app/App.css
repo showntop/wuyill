@@ -1,0 +1,38 @@
+.appContainer {
+  height: 100%;
+  width: 750px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.searchBar {
+  background-color: var(--primary-bg-color);
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;  /* Adjust this value based on your needs */
+  overflow-y: auto;
+  /* padding: 16px; */
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.searchResultFocused {
+/* :global(.searchResultFocused) { */
+  background: var(--highlight-overlay) !important;
+  outline: 0 !important;
+  background-color: blanchedalmond;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  font-family: Helvetica;
+  font-style: normal;
+  margin-top: 8px;
+}
