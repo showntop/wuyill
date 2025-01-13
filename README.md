@@ -1,5 +1,8 @@
 # Wuyill APP
 
+![Wuyill Logo](https://github.com/showntop/wuyill/raw/main/assets/image-file.png)
+![Wuyill Logo](https://github.com/showntop/wuyill/raw/main/assets/image-qa.png)
+
 ## Overview
 
 Wuyill APP is a cutting-edge AI assistant designed to provide a spotlight-like experience, offering intelligent and context-aware assistance. Built on the foundation of **LLMack**, Wuyill aims to evolve into an omnipotent AI agent or a multi-agent system capable of handling a wide range of tasks and interactions.

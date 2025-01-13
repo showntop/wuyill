@@ -8,7 +8,6 @@ pub async fn handle_stream_chat2(message: String, app_handle: tauri::AppHandle) 
     let client = reqwest::Client::new();
     let mut stream = client
         .post("http://127.0.0.1:9001/api/search")
-        // .header("Authorization", "Bearer aFdnhCxk9BC6hniF7ovxce2dvXo2xKgA")
         .json(&serde_json::json!({
             "model": "gpt-4o",
             // "temperature": 0.0,
